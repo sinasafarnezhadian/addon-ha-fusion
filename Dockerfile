@@ -1,5 +1,6 @@
 # ha base image
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:3.19
+# ARG BUILD_FROM
 
 # first stage, can't use alpine for building armv7
 FROM node:22 AS builder
