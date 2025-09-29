@@ -27,4 +27,3 @@ jobs:
             --all \
             --target /data \
             --docker-hub sinasafarnezhadian \
-            --retry 3
