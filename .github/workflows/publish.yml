@@ -20,6 +20,11 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Verify DockerHub Login
+        run: |
+          echo "Testing DockerHub login context..."
+          docker info
+
       - name: Publish Docker Images
         uses: home-assistant/builder@master
         with:
