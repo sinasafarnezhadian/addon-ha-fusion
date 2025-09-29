@@ -10,6 +10,7 @@ WORKDIR /app
 # clone, build and remove repo example data
 RUN git clone --depth 1 https://github.com/sinasafarnezhadian/ha-fusion . && \
   npm install --verbose && \
+  npx svelte-kit sync && \
   npm run build && \
   npm prune --omit=dev && \
   rm -rf ./data/*
