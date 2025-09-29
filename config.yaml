@@ -1,5 +1,5 @@
 # required configuration options
-name: Fusion
+name: Fusion (Sina)
 version: 2025.9.1
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
