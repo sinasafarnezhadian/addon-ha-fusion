@@ -26,7 +26,7 @@ jobs:
           docker info
 
       - name: Publish Docker Images
-        uses: home-assistant/builder@master
+        uses: home-assistant/builder@2025.09.0
         with:
           args: |
             --all \
