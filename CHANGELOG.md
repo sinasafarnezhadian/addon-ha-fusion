@@ -1,8 +1,5 @@
-## What's Changed
-* Fix picture elements add new image by @matt8707 in https://github.com/matt8707/ha-fusion/pull/579
+## Bug fix
 
+* Remove leftover debug text ("HALLO") from the main view scenes section in https://github.com/sinasafarnezhadian/ha-fusion/commit/076975607a287c95ae4fc4f45bab26084c3ef766
 
-![pe](https://github.com/user-attachments/assets/aef438e5-f174-47a2-8089-a948126ddd2d)
-
-
-**Full Changelog**: https://github.com/matt8707/ha-fusion/compare/2024.10.0...2024.10.1
+**Full Changelog**: https://github.com/sinasafarnezhadian/ha-fusion/compare/2025.10.1...2025.10.2
